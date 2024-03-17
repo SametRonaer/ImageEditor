@@ -125,8 +125,8 @@ class DraggableTextField extends StatelessWidget {
         focusNode: config.value.focusNode,
         maxLines: 20,
         style: config.value.textStyle.copyWith(
-            //  color: config.value.color,
-            ),
+          color: config.value.color,
+        ),
         controller: textEditingController,
         onTap: () {},
         onChanged: (value) {
